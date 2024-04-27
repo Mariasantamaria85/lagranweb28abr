@@ -1,0 +1,91 @@
+body {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:"poppins-bold";
+    font-size: 1.56rem;
+    color: var(--neutral); /* Rosa */
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(230, 0, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+  
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre las tarjetas */
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none; /* Para que parezcan enlaces */
+    color: #333333;
+    transition: transform 0.3s ease;
+}
+h2{
+    text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+    font-size: 2rem; /* Cambiado a 168px */
+    color: var(--neutral)  
+}
+.card:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+ 
+    
+}
+#img1:hover  {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+.cardexpo{
+padding: 10px;
+font-size: 15px;
+background-color: aquamarine;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+height: 520px;
+text-align: center;
+font-family: monospace;
+background-color: rgba(238, 127, 255, 0.631);
+color: rgb(240, 249, 255);
+overflow: hidden;
+border-radius: 10px;
+text-shadow: 3px 3px 6px rgba(9, 9, 9, 0.918);
+}
+
+
+
+
+.catalogo2 {
+    position: fixed;
+    top: 200px;
+    left: 0;
+    width: 100%; /* Opcional: Ajusta el ancho según tus necesidades */
+    background-color: #f0f0f0; /* Opcional: Agrega un color de fondo */
+    padding: 10px; /* Opcional: Agrega un espacio interior */
+   }
+
+.titulocat{
+    font-family:"poppins-bold";
+    text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+    
+    cursor: pointer;
+    font-size: 2rem; /* Cambiado a 168px */
+    color: var(--neutral) 
+}

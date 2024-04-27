@@ -1,0 +1,69 @@
+:root {
+        --neutral:#ffffffff;
+        --primary:#89cdcdff;
+        --primary-light:#73eee6ff;   
+        --dark:#3a8896ff;           
+        --dark-plus:#24606bff;
+            
+        --secondary:#ffd9f0ff;
+        --secondary-darkplus:#bf2abfff;
+            
+        --terciary:#ff4dffff;
+        --terciary-dark:#7c3c8cff;
+        --accent:#c4f340ff;         
+}
+
+@font-face {
+    font-family:"courier-bold";
+    src: url(/fonts/CourierPrime-Bold.woff);
+}
+@font-face {
+    font-family:"courier" ;
+    src: url(/fonts/CourierPrime-Regular.woff);
+}
+@font-face {
+    font-family:"poppins-bold" ;
+    src: url(/fonts/Poppins-Bold.woff);
+}
+@font-face {
+    font-family:"poppins" ;
+    src: url(/fonts/Poppins-Regular.woff);
+}
+@font-face {
+    font-family:"texto" ;
+    src: url(/fonts/ShareTechMono-Regular.woff);
+}
+
+
+:root {
+    --neutral: rgba(255, 255, 255, 1);
+    --primary-00: rgba(137, 205, 205, 1);
+    --primarylight: rgba(115, 238, 230, 1);
+    --primarydark: rgba(58, 136, 150, 1);
+    --primary-dark: rgba(36, 96, 107, 1);
+    --secondary-00: rgba(255, 217, 240, 1);
+    --terciary-00: rgba(255, 77, 255, 1);
+    --terciarydark: rgba(124, 60, 140, 1);
+    --accent-00: rgba(196, 243, 64, 1);
+    --secondarydark: rgba(191, 42, 191, 1);
+    --subt-tulo-font-family: "Share Tech Mono", Helvetica;
+    --subt-tulo-font-weight: 400;
+    --subt-tulo-font-size: 48px;
+    --subt-tulo-letter-spacing: 0px;
+    --subt-tulo-line-height: normal;
+    --subt-tulo-font-style: normal;
+    --t-tulo-font-family: "Poppins", Helvetica;
+    --t-tulo-font-weight: 700;
+    --t-tulo-font-size: 64px;
+    --t-tulo-letter-spacing: 0px;
+    --t-tulo-line-height: normal;
+    --t-tulo-font-style: normal;
+    --texto-font-family: "Courier Prime", Helvetica;
+    --texto-font-weight: 600;
+    --texto-font-size: 22px;
+    --texto-letter-spacing: 0px;
+    --texto-line-height: normal;
+    --texto-font-style: normal;
+    --terciary-dark: 2px 5px 16px 0px rgba(0, 0, 0, 0.25);
+  }
+  

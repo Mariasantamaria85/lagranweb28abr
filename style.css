@@ -1,0 +1,606 @@
+
+.titulo{
+    font-family: "poppins-bold";
+    position: absolute; /* Posiciona el texto de forma absoluta dentro del contenedor */
+    top: 50%; /* Alinea el texto en la mitad superior del contenedor */
+    left: 50%; /* Alinea el texto en la mitad izquierda del contenedor */
+    transform: translate(-50%, -50%); /* Centra el texto dentro del contenedor */
+      z-index: 999; /* Asegura que el h2 esté encima de todo */
+    font-size: 6rem;
+    color: rgb(247, 247, 247); /* Rosa */
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(251, 255, 255), 0 0 1em rgb(230, 43, 177), 0 0 0.2em rgb(214, 216, 216);
+  
+   
+}
+div.container{
+  display: flex;
+  align-items: center;
+  
+
+
+  left:50%;
+  right: 50%;
+  height: 100vh;
+  text-align: start;
+}
+.container img{
+ left:500px
+
+}
+
+.texto{
+  font-family:"courier-bold";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999; /* Asegura que el h2 esté encima de todo */
+  font-size: 40px;
+  color: #f13fd6; /* Rosa */
+  text-decoration: none;
+  text-shadow: 6px 2px 6px rgb(255, 255, 255);
+}
+
+/* ----------------------------------------------------------aqui esta el body */
+
+body { 
+
+    text-align: center;
+    margin: 0;
+  
+    background-color: var(--primary);
+  }
+
+  .menu-container {
+    position: fixed;
+    list-style: none;
+    width: 100vw;
+    top: 10px;
+    left: 20px;
+    z-index: 999;
+    display: inline-flex;
+    text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+    
+    cursor: pointer;
+    font-size: 2rem; /* Cambiado a 168px */
+    color: var(--neutral) 
+   
+  }
+
+
+  .menu-icon {
+    display: inline-block; /* Hace que el div se comporte como un bloque en línea */
+    vertical-align: top; /* Alinea el div en la parte superior */
+    font-family:"poppins-bold";
+    top: 0;
+    text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+    
+    cursor: pointer;
+    font-size: 2rem; /* Cambiado a 168px */
+    color: var(--neutral) 
+    
+  }
+   .tienda{
+    font-family:"poppins-bold";
+    text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+    font-size: 2rem; 
+    color: var(--neutral);
+   list-style: none;
+    list-style-type: none;
+  margin-left: 1450px;
+    padding: 0;
+    display: inline-flex;
+    gap: 1rem;
+
+    
+}
+    
+
+  
+
+  .tienda li {
+    margin: 10x;
+   top: 2px;
+    z-index: 998;
+} 
+
+
+
+  .menu {
+    font-family:"poppins-bold";
+    position: fixed;
+    top: 50px;
+    left: -400px;
+    width: 200px;
+    height: 80%;
+   text-align: left;
+    transition: left 0.3s ease;
+    z-index: 998;
+ 
+  }
+  .menu.active {
+    left: 0;
+  }
+
+  .menu ul {
+    height: 300px;
+    margin-top: 2.6rem;
+    list-style: none;
+    margin: 0;
+    margin-left: 20px;
+  }
+  .menu ul li  {
+    padding-bottom: 30px;
+    height: 50px;
+}
+  .menu ul li a {
+
+    font-family:"poppins-bold";
+    font-size: 1.56rem;
+    color: var(--neutral); /* Rosa */
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(230, 0, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+   
+  }
+
+div.menu ul li a:hover {
+font-size: 1.7rem;
+/* transition: steps(200); */
+
+}
+  
+.parallax{
+  /* position: relative; */
+   width: 100%;
+   height: 900px;
+   overflow: hidden;
+   
+   
+}
+.parallax img{
+top: 0;
+left: 0;
+width: 100%;
+position: absolute;
+/* pointer-events: none; */
+}
+
+.sect{
+  top: 500px;
+  position: relative;
+ 
+  background-color: var(--primary-light);
+  color:var(--neutral);
+
+}
+.caca{
+  position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/* -------------------------------------------------------aqui el p */
+p{
+  font-family: "courier";
+  font-size: 1.3rem;
+  }
+
+  .metatitulo{
+    font-family: "courier";
+    font-size: 3rem;
+  }
+
+.gritofinal{
+  font-family: "poppins";
+  font-size: 3rem;
+}
+#imgpara1{
+  bottom: 50px;
+}
+#imgpara2{
+  left:-100px;
+}
+
+#imgpara3{
+  top:-100px;
+}
+#imgpara4{
+  right:-200px;
+  bottom: -100px;
+}
+#imgpara5{
+  right:-40px;
+  bottom: -20px;
+
+}
+#imgpara6{
+  right:-100px;
+  bottom: -100px;
+}
+#imgpara7{
+  top:-40px;
+  z-index: 1;
+}
+#imgpara8{
+  right:-40px;
+  bottom: -20px;
+}
+
+#imgpara11{ 
+  right: 500px;
+  z-index: -10;
+}
+#imgpara12{ 
+  right: -200px;
+}
+#imgpara13{ 
+  right: -100px;
+  top: -100px;
+}
+#imgpara14{ 
+  right: 200px;
+}
+#imgpara15{ 
+  right: -200px;
+}
+
+
+
+
+
+.frame {
+  background-color: #89cdcd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .overlap-wrapper {
+  background-color: var(--primary-00);
+  width: 1919px;
+  height: 1908px;
+}
+
+.frame .overlap {
+  position: relative;
+  height: 1865px;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 1919px;
+  height: 1865px;
+  top: 0;
+  left: 0;
+}
+
+.frame .fondoderecha {
+  position: absolute;
+  width: 570px;
+  height: 1526px;
+  top: 272px;
+  right: -100px;
+
+  /* transform: translatey(0px);
+	animation: float 6s ease-in-out infinite; */
+
+  
+  }
+
+
+
+
+
+.frame .fondoizq {
+  position: absolute;
+  width: 657px;
+  height: 1782px;
+  left: -100px;
+}
+
+.frame .somos-una-luz-que {
+  position: absolute;
+  width: 854px;
+  top: 1384px;
+  left: 532px;
+  font-family: var(--texto-font-family);
+  font-weight: var(--texto-font-weight);
+  color: var(--neutral);
+  font-size: var(--texto-font-size);
+  text-align: center;
+  letter-spacing: var(--texto-letter-spacing);
+  line-height: var(--texto-line-height);
+  font-style: var(--texto-font-style);
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+ 
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  width: 854px;
+  top: 1612px;
+  left: 532px;
+  font-family: var(--texto-font-family);
+  font-weight: var(--texto-font-weight);
+  color: var(--neutral);
+  font-size: var(--texto-font-size);
+  text-align: center;
+  letter-spacing: var(--texto-letter-spacing);
+  line-height: var(--texto-line-height);
+  font-style: var(--texto-font-style);
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+   
+}
+
+.frame .nosotros-somos-un {
+  position: absolute;
+  width: 996px;
+  top: 958px;
+  left: 461px;
+  font-family: var(--texto-font-family);
+  font-weight: var(--texto-font-weight);
+  color: var(--neutral);
+  font-size: var(--texto-font-size);
+  text-align: center;
+  letter-spacing: var(--texto-letter-spacing);
+  line-height: var(--texto-line-height);
+  font-style: var(--texto-font-style);
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+   
+}
+
+.frame .la-luz-azul {
+  position: absolute;
+  width: 898px;
+  top: 1194px;
+  left: 510px;
+  font-family: var(--texto-font-family);
+  font-weight: var(--texto-font-weight);
+  color: var(--neutral);
+  font-size: var(--texto-font-size);
+  text-align: center;
+  letter-spacing: var(--texto-letter-spacing);
+  line-height: var(--texto-line-height);
+  font-style: var(--texto-font-style);
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+   
+}
+
+.frame .rechazo-la-solidez {
+  position: absolute;
+  width: 827px;
+  top: 729px;
+  left: 545px;
+  font-family: var(--texto-font-family);
+  font-weight: var(--texto-font-weight);
+  color: var(--neutral);
+  font-size: var(--texto-font-size);
+  text-align: center;
+  letter-spacing: var(--texto-letter-spacing);
+  line-height: var(--texto-line-height);
+  font-style: var(--texto-font-style);
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+      }
+
+.frame .las-esculturas-se {
+  position: absolute;
+  width: 862px;
+  top: 480px;
+  left: 528px;
+  font-family: poppins;
+  font-weight: var(--texto-font-weight);
+  color: var(--neutral);
+  font-size: var(--texto-font-size);
+  text-align: center;
+  letter-spacing: var(--texto-letter-spacing);
+  line-height: var(--texto-line-height);
+  font-style: var(--texto-font-style);
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+   }
+
+.frame .no-creo-en-soportes {
+  position: absolute;
+  width: 862px;
+  top: 271px;
+  left: 528px;
+  font-family: "poppins";
+  font-weight: var(--texto-font-weight);
+  color: var(--neutral);
+  font-size: var(--texto-font-size);
+  
+  text-align: center;
+  letter-spacing: var(--texto-letter-spacing);
+  line-height: var(--texto-line-height);
+  font-style: var(--texto-font-style);
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+}
+
+.frame .div {
+  position: absolute;
+  width: 632px;
+  top: 631px;
+  left: 643px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--neutral);
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+   
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  width: 615px;
+  top: 1096px;
+  left: 651px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--neutral);
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+   
+}
+
+.frame .p {
+  position: absolute;
+  top: 1760px;
+  left: 317px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--neutral);
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+   
+}
+
+.frame .la-proyecci-n-de-la {
+  position: absolute;
+  width: 999px;
+  top: 860px;
+  left: 459px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--neutral);
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+   
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  width: 999px;
+  top: 1286px;
+  left: 459px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--neutral);
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+   
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  width: 774px;
+  top: 402px;
+  left: 572px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--neutral);
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+   
+}
+
+.frame .text-wrapper-5 {
+  position: absolute;
+  width: 774px;
+  top: 173px;
+  left: 572px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--neutral);
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+   
+}
+
+.frame .manifiestotitulo {
+  position: absolute;
+  top: 43px;
+  left: 265px;
+  font-family: var(--t-tulo-font-family);
+  font-weight: var(--t-tulo-font-weight);
+  color: var(--neutral);
+  font-size: var(--t-tulo-font-size);
+  text-align: center;
+  letter-spacing: var(--t-tulo-letter-spacing);
+  line-height: var(--t-tulo-line-height);
+  font-style: var(--t-tulo-font-style);
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+ }
+
+.frame .conclusion {
+  position: absolute;
+  width: 571px;
+  top: 1525px;
+  left: 673px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: var(--neutral);
+  font-size: 48px;
+  text-align: center;
+
+  line-height: normal;
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+   
+}
+
+
+.cursor {
+  position: absolute;
+  width: 5px; /* Tamaño del punto */
+  height: 5px; /* Tamaño del punto */
+  background-color: white; /* Color del punto */
+  border-radius: 50%; /* Forma el punto como un círculo */
+  pointer-events: none; /* No interactúa con el cursor */
+  z-index: 9999; /* Asegura que esté siempre en la parte superior */
+
+}
+
+
+
+
+.catdosimg{
+
+
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  
+ 
+}
+
+.catalogo2 {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 100%; /* Opcional: Ajusta el ancho según tus necesidades */
+  background-color: #f0f0f0; /* Opcional: Agrega un color de fondo */
+  padding: 10px; /* Opcional: Agrega un espacio interior */
+  box-sizing: border-box; /* Opcional: Ajusta el tamaño total */
+}
+
+.titulocat{
+  font-family:"poppins-bold";
+  text-shadow: 1px 1px 2px rgb(0, 242, 255), 0 0 1em rgb(24, 202, 196), 0 0 0.2em rgb(0, 242, 255);
+  
+  cursor: pointer;
+  font-size: 2rem; /* Cambiado a 168px */
+  color: var(--neutral) 
+}
+
+
